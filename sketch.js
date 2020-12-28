@@ -69,4 +69,8 @@ function draw(){
     log6.display();
     bird.display();
     platform.display();
+
+    strokeWeight(3) 
+    line(bird.body.position.x,bird.body.position.y,log6.body.position.x,log6.body.position.y);
+
 }
