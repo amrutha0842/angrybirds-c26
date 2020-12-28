@@ -69,7 +69,7 @@ function draw(){
     log6.display();
     bird.display();
     platform.display();
-    chain.display();
+    
     
 
     strokeWeight(3) 
