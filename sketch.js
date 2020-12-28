@@ -14,7 +14,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-    log6 = new Log(500,180,80,PI/2);
+    log6 = new Log(230,180,80,PI/2);
 
 
     ground = new Ground(600,height,1200,20);
